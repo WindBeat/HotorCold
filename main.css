@@ -117,7 +117,7 @@ p {
 #submit {
 	border-radius: 5px;
 	border: 1px solid #D4D4D4;
-	color: #fafbf9;
+	color: #B0192D;
 	padding: 10px 22px;
 	text-decoration: none;
 	margin-top: 10px;
@@ -127,8 +127,8 @@ p {
 #reset {
 	border-radius: 5px;
 	border: 1px solid #D4D4D4;
-	color: #fafbf9;
-	padding: 10px 22px;
+	color: #233664;
+	padding: 10px 25px;
 	text-decoration: none;
 	margin-top: 10px;
 	margin-left: 10px;
