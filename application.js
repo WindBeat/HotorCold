@@ -10,6 +10,7 @@ $(document).ready(function() {
 
 	$('#submit').click(function() {
 		var guess = $('#guess').val();
+		$('#guess').val('');
 		
 		if(guess >= 31 || guess <= 0) {
 			$('#result').text("Number must be between 1 and 30.");
