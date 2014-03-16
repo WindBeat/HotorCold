@@ -11,6 +11,7 @@ $(document).ready(function() {
 
 	$('#submit').click(function() {
 		var guess = $('#guess').val();
+		$('#guess').val('');
 		var diff = Math.abs(guess - answer);
 		switch(true) {
 			case (guess >= 31 || guess <= 0) :
